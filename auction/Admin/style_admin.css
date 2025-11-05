@@ -1,0 +1,141 @@
+/* ===== Admin Dashboard CSS (Light Blue Professional Theme) ===== */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f8fb; /* soft blue-gray */
+  color: #111;
+  min-height: 100vh;
+}
+
+/* Admin Navbar */
+.navbar {
+  background: linear-gradient(90deg, #3399ff, #267acc); /* blue gradient */
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.navbar .navbar-brand {
+  font-weight: 700;
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar a {
+  color: #fff;
+  margin: 0 12px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #e0f0ff; /* lighter hover */
+}
+
+/* Container */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 30px auto;
+}
+
+/* Forms */
+form {
+  background: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  margin-bottom: 30px;
+}
+
+form label {
+  font-weight: 600;
+  display: block;
+  margin: 12px 0 6px;
+  color: #0066cc;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin-bottom: 12px;
+  font-size: 15px;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #3399ff;
+  outline: none;
+}
+
+/* Buttons */
+.btn {
+  background: #3399ff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  font-weight: 500;
+}
+
+.btn:hover {
+  background: #267acc;
+}
+
+/* Tables */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table thead {
+  background: #3399ff;
+  color: #fff;
+}
+
+.table th, .table td {
+  padding: 12px 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.table tbody tr:nth-child(even) {
+  background: #f9fcff;
+}
+
+.table tr:hover {
+  background: #eaf4ff;
+}
+.footer p {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #333;
+}
+.footer strong {
+  color: #0077cc;
+}
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.admin-info {
+  font-size: 14px;
+  color: #0077cc;
+  font-weight: 600;
+  margin-left: 10px;
+}
